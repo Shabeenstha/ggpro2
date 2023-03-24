@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body onload="alert('This is javascript demo');"  >
+<h1>The Element Object</h1>
+<h2>The innerHTML Property</h2>
+
+<p id="myP">This is a p element.</p>
+<div id="myDIV">This is a div element.</div>
+<p id="demo">
+</p>
+<script>
+ let text = "Hello Dolly";
+ let texts = "Hello Dolly dd";
+ document.getElementsByTagName('p')[0].innerHTML = texts;
+ document.getElementsByTagName('p')[0].style.color="red";
+ document.getElementById("myDIV").innerHTML = text;
+
+			var first = "thishishdfi";
+	
+	firster= first.slice(0,4);
+	document.getElementById("demo").innerHTML=firster;
+
+	if (first.length>4) {
+		alert("Length is more than 4"); 
+	}
+
+	
+
+</script>
+
+</body>
+</html>
